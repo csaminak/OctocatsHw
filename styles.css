@@ -1,0 +1,15 @@
+/*Temporary outline*/
+.octocat {
+    border: 3px solid pink;
+}
+.image-footer {
+    border: 2px solid blue;
+}
+
+/*Working Area*/
+.octodex li {
+    list-style: none;
+}
+.octocat img {
+    width: 33.3%;
+}
