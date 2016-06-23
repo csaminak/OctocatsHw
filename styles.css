@@ -9,13 +9,15 @@ body {
 }
 
 /*Working Area*/
-.octodex .octocat {
+.octocat {
     list-style: none;
     box-sizing: border-box;
     padding: 0;
     margin: 1em;
     float: left;
-    width: 33.3%;
+    max-width: 30%;
+    min-width: 15em;
+    display: inline-block;
 }
 .octodex {
     padding: 0;
@@ -24,12 +26,15 @@ body {
     max-width: 100%;
 }
 /*footer area*/
+.triangle-down {
+    background-color: #c6c5c8;
+}
 .authors {
     padding: 0;
     display: inline;
 }
 .authors li, div {
-    display: inline;
+    display: inline-block;
 }
 .authors img {
     width: 1em;
