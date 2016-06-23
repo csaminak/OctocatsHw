@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Open Sans', 'sans serif'
 }
 
 /*Working Area*/
@@ -31,7 +32,7 @@ body {
     border-width: 5px 5px 0 5px;
     border-color: #c6c5c8 transparent transparent transparent;
     position: absolute;
-    bottom: 1.25em;
+    bottom: 1.65em;
     right: 0;
 
 }
