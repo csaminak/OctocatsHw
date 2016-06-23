@@ -2,11 +2,13 @@ body {
     margin: 0;
 }
 /*Temporary outline*/
-.octocat {
-    border: 3px solid pink;
+.octocat img{
+    border: 1px solid #c6c5c8;
+    border-style: inset;
+    border-radius: 3px;
 }
 .image-footer {
-    border: 2px solid blue;
+    border-bottom: 1px solid #c6c5c8;
 }
 
 /*Working Area*/
@@ -14,20 +16,32 @@ body {
     list-style: none;
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 1em;
     float: left;
-    max-width: 33.3%
+    width: 33.3%;
 }
 .octodex {
     padding: 0;
 }
+.octocat img {
+    max-width: 100%;
+}
+/*footer area*/
 .authors {
     padding: 0;
     display: inline;
 }
-.image-caption {
-    box-sizing: border-box;
+.authors li, div {
+    display: inline;
 }
-.octocat img {
-    max-width: 100%;
+.authors img {
+    width: 1em;
+    border-style: none;
+}
+span, a {
+    color: #838286;
+    text-decoration: none;
+}
+.image-number, a {
+    font-weight: bold;
 }
