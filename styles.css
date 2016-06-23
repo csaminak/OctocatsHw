@@ -1,12 +1,6 @@
 body {
     margin: 0;
 }
-/*Temporary outline*/
-.octocat img{
-    border: 1px solid #c6c5c8;
-    border-style: inset;
-    border-radius: 3px;
-}
 
 /*Working Area*/
 .octocat {
@@ -25,6 +19,9 @@ body {
 }
 .octocat img {
     max-width: 100%;
+    border: 1px solid #c6c5c8;
+    border-style: inset;
+    border-radius: 3px;
 }
 /*footer area*/
 .triangle-down {
@@ -44,6 +41,7 @@ body {
 }
 .authors li, div {
     display: inline-block;
+    vertical-align: middle;
 }
 .authors img {
     width: 1.25em;
@@ -53,10 +51,12 @@ span, a {
     color: #838286;
     text-decoration: none;
     font-size: 0.75em;
+    vertical-align: middle;
 }
 .image-number, a {
     font-weight: bold;
     font-size: 0.75em;
+    vertical-align: middle;
 }
 .image-footer {
     border-bottom: 1px solid #c6c5c8;
@@ -64,4 +64,7 @@ span, a {
 }
 .image-caption {
     float: right;
+}
+.image-number:before {
+    content: '#';
 }
