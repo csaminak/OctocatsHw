@@ -7,9 +7,6 @@ body {
     border-style: inset;
     border-radius: 3px;
 }
-.image-footer {
-    border-bottom: 1px solid #c6c5c8;
-}
 
 /*Working Area*/
 .octodex .octocat {
@@ -44,4 +41,11 @@ span, a {
 }
 .image-number, a {
     font-weight: bold;
+}
+.image-footer {
+    border-bottom: 1px solid #c6c5c8;
+    width: 100%;
+}
+.image-caption {
+    float: right;
 }
