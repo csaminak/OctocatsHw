@@ -6,11 +6,15 @@ body {
 /*Working Area*/
 .octocat {
     list-style: none;
-    margin: 1.6%;
+    margin-right: 0;
+    margin-left: 1%;
     float: left;
-    width: 30%;
+    width: 32%;
     min-width: 15em;
     position: relative;
+}
+.octocat:last-child {
+    margin-right: 1%;
 }
 .octodex {
     padding: 0;
